@@ -1,0 +1,223 @@
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+
+/* ////////
+    NAVBAR
+   //////// */
+
+.navbar {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
+    background-color: white;
+}
+
+.nav-ul {
+    margin-left: 1rem;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.act {
+    color: #51267D !important;
+}
+
+.nav-ul li {
+    margin: 0 0.5rem;
+}
+
+.nav-cart {
+    color: #51267D !important;
+    margin: 0 0.5em 0 0.5em;
+}
+
+.nav-btn {
+    padding: 8px 25px;
+    border-radius: 8px;
+    background-color: #51267D;
+    border: none;
+    color: white;
+}
+
+.nav-btn:hover {
+    background-color: #51267D;
+}
+
+.div {
+    height: 100vh;
+}
+
+
+/* //////////
+    CATEGORY
+   ////////// */
+
+.category h4 {
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.slick-btn {
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    margin: 0 0.5rem;
+}
+
+.slick-btn:hover {
+    background-color: #fff;
+}
+
+.variable-width a {
+    text-decoration: none;
+    color: black;
+}
+
+.slick-arrow {
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid rgb(192, 189, 189);
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 1000;
+    margin: 0 0.5rem;
+    color: #51267D;
+}
+
+
+/* ////////////
+    COMBO-CARD
+   //////////// */
+
+.sect h2 {
+    color: black;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.sect .card {
+    border: none;
+    border-radius: 12px;
+    background-color: #fff;
+    width: 250px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sect .card img {
+    border-radius: 12px 12px 0 0;
+}
+
+.sect .card h5 {
+    margin-bottom: 1rem;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sect .card h6 {
+    color: #696969;
+    font-size: 16px;
+    font-size: 200;
+}
+
+.sect p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin: auto 0;
+}
+
+.sect a {
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(81, 38, 125, .08);
+    padding: 10px 25px;
+    color: #51267d;
+}
+
+.sect a:hover {
+    background-color: #51267d;
+    color: white;
+}
+
+.club-card,
+.burger-card {
+    margin: 0 1rem;
+}
+
+
+/* ////////
+    FOOTER
+   //////// */
+
+footer {
+    background-color: #51267D;
+    margin-top: 5rem;
+}
+
+.img {
+    margin-top: 3rem !important;
+    text-align: center;
+}
+
+footer li {
+    list-style: none;
+    color: white;
+    margin: 0 1rem;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer-text {
+    align-items: center !important;
+}
+
+.footer-text p {
+    font-size: 14px;
+    color: #d9dbe1;
+}
+
+.socials>img {
+    height: 32px;
+    width: 32px;
+    margin: 0 0.5rem;
+}
+
+.hr {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    opacity: .2;
+    margin: 2rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .club-card,
+    .burger-card {
+        margin: 0 auto;
+    }
+    footer ul li {
+        display: table !important;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-text {
+        display: block !important;
+        text-align: center;
+    }
+}
